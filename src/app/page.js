@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import { House, LogIn, AppWindowIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
 
+// TODO: finalize UI
+
 export default function LandingPage() {
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
